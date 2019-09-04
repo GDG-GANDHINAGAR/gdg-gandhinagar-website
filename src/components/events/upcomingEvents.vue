@@ -218,6 +218,7 @@ export default {
       .then(data => data.json())
       .then(res => {
         if (res.length > 0) {
+          console.log("response =====", res);
           this.showLoader = false;
           this.showData = true;
           this.eventsData = res;

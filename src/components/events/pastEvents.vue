@@ -56,7 +56,6 @@
                 </v-layout>
             </v-flex>
            
-
             <v-flex xs12 sm6 md4 lg4 v-for="(item,i) in eventsData" :key="i">
                 <v-slide-y-reverse-transition>
                     <v-list two-line subheader v-show="showData" class="pa-2">
